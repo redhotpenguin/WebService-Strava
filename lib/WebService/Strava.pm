@@ -36,6 +36,8 @@ our $Json = JSON->new->allow_nonref;
   $s->ride(3508715);
   $efforts = $s->efforts;
 
+=back
+
 =cut
 
 sub efforts {
@@ -107,7 +109,6 @@ has 'end_latlng'      => ( is => 'ro', isa => 'ArrayRef', required => 1 );
   # get the efforts from the ride
   $efforts = $S->efforts;
 
-=back
 
 =head1 DESCRIPTION
 

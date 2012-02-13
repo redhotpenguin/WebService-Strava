@@ -38,13 +38,3 @@ COPYRIGHT AND LICENSE
     under the same terms as Perl itself, either Perl version 5.12.0 or, at
     your option, any later version of Perl 5 you may have available.
 
-POD ERRORS
-    Hey! The above document had some coding errors, which are explained
-    below:
-
-    Around line 99:
-        You forgot a '=back' before '=head1'
-
-    Around line 110:
-        =back without =over
-
