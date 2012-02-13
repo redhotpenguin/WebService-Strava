@@ -107,6 +107,8 @@ has 'end_latlng'      => ( is => 'ro', isa => 'ArrayRef', required => 1 );
   # get the efforts from the ride
   $efforts = $S->efforts;
 
+=back
+
 =head1 DESCRIPTION
 
 Alpha level API client to the webservice at http://www.strava.com

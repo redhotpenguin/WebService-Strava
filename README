@@ -29,7 +29,7 @@ SEE ALSO
     <http://polofieldsmackdown.com>
 
 AUTHOR
-    Fred Moyer, <fred@redhotpenguin.com.com>
+    Fred Moyer, <fred@redhotpenguin.com>
 
 COPYRIGHT AND LICENSE
     Copyright (C) 2011 by Fred Moyer
@@ -44,4 +44,7 @@ POD ERRORS
 
     Around line 99:
         You forgot a '=back' before '=head1'
+
+    Around line 110:
+        =back without =over
 
