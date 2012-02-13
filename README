@@ -1,0 +1,47 @@
+NAME
+    WebService::Strava - Interface to the Strava API version 2
+
+METHODS
+    efforts
+          $s = WebService::Strava->new;
+          $s->ride(3508715);
+          $efforts = $s->efforts;
+
+SYNOPSIS
+      use WebService::Strava;
+      $S = WebService::Strava->new;
+
+      # specify a ride to examine
+      $S->ride(331215);
+
+      # get the efforts from the ride
+      $efforts = $S->efforts;
+
+DESCRIPTION
+    Alpha level API client to the webservice at http://www.strava.com
+
+    This module is currently my way of scratching an itch for the Polo Field
+    Smack Down competition.
+
+SEE ALSO
+    <https://strava.pbworks.com/w/browse>
+
+    <http://polofieldsmackdown.com>
+
+AUTHOR
+    Fred Moyer, <fred@redhotpenguin.com.com>
+
+COPYRIGHT AND LICENSE
+    Copyright (C) 2011 by Fred Moyer
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself, either Perl version 5.12.0 or, at
+    your option, any later version of Perl 5 you may have available.
+
+POD ERRORS
+    Hey! The above document had some coding errors, which are explained
+    below:
+
+    Around line 99:
+        You forgot a '=back' before '=head1'
+

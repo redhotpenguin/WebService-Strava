@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/WebService-Strava.t
+lib/WebService/Strava.pm
+bin/pfsd.pl
