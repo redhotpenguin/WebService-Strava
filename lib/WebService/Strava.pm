@@ -21,7 +21,7 @@ use constant DEBUG => $ENV{STRAVA_DEBUG} || 0;
 
 our $Endpoint = "http://www.strava.com/api/v2";
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 our $Ua = LWP::UserAgent->new( agent => join( '_', __PACKAGE__, $VERSION ) );
 our $Json = JSON->new->allow_nonref;
